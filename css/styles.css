@@ -36,6 +36,18 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+.list-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 
 /* -----------HEADER----------- */
 .header {
@@ -103,16 +115,10 @@ body {
     background-color: var(--main-background-color);
 }
 .features-list-item-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+
 }
 .features-list-item-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--text-color);
+
 }
 
 /* -----------ABOUT----------- */
@@ -143,18 +149,10 @@ body {
     border-radius: 0px 0px 4px 4px;
 }
 .team-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
     text-align: center;
-    letter-spacing: 0.02em;
 }
 .team-text {
-    font-size: 16px;
-    line-height: 1.5;
     text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--text-color);
 }
 /* -----------FOOTER----------- */
 .footer {
@@ -180,7 +178,7 @@ body {
 }
 
 /* -----------PORTFOLIO PAGE----------- */
-.filters, .projects {
+.projects {
     background-color: var(--main-background-color);
 }
 .filter-btn {
@@ -205,14 +203,8 @@ body {
     border: 1px solid var(--accent-color);
 }
 .project-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+
 }
 .project-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--text-color);
+
 }
